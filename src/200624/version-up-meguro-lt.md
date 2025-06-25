@@ -5,9 +5,13 @@ paginate: true
 marp: true
 ---
 
-# 複数リポジトリの<br>バージョン管理システムと<br>過去の失敗
+![bg contain](images/canly-back.png)
 
-## Meguro.lt - Lightning Talk
+![canly-logo](images/canly-logo.png)
+
+# 複数リポジトリ環境下の<br>バージョン管理システム<br>構築と運用
+
+## めぐろ LT #28 - 株式会社カンリー 角谷維
 
 ---
 
@@ -15,10 +19,9 @@ marp: true
 
 ### 🙋‍♂️ About Me
 
-- **Name**: [Your Name]
-- **Role**: Software Engineer / Developer
-- **Experience**: 複数プロジェクトでのバージョン管理に苦労中
-- **Interest**: DevOps, CI/CD, Developer Experience
+- **Name**: 角谷 維(すみや たもつ) / motsuo
+- **Role**: web エンジニア / 一応フロント
+- **Like**:
 
 ### 今日お話しすること
 
