@@ -1,5 +1,5 @@
 ---
-theme: blue-original
+theme: canly-theme
 _class: lead
 paginate: true
 marp: true
