@@ -11,21 +11,43 @@ marp: true
 
 # 複数リポジトリ環境下の<br>バージョン管理システム<br>構築と運用
 
-## めぐろ LT #28 - 株式会社カンリー 角谷維
+## めぐろ LT #28 <br>株式会社カンリー 角谷維
 
 ---
 
 ## 自己紹介
 
+<style scoped>
+.profile-section {
+  position: relative;
+}
+.profile-image {
+  position: absolute;
+  right: 80px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+</style>
+
+<div class="profile-section">
+
 ### 🙋‍♂️ About Me
 
 - **Name**: 角谷 維(すみや たもつ) / motsuo
+- **Company**: 株式会社カンリー
 - **Role**: web エンジニア / 一応フロント
-- **Like**:
+- **Like**: AI 系 / 音楽 / ポーカー
 
-### 今日お話しすること
+<img src="images/motsuo.jpg" class="profile-image" style="height: 300px; border-radius: 10px;">
 
-複数リポジトリを管理する際のバージョン管理の課題と、実際に遭遇した失敗事例について
+</div>
+
+---
+
+<!-- _class: subsection -->
+<!-- paginate: false -->
+
+# エンジニア本部について
 
 ---
 
