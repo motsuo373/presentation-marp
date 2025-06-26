@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>プレゼン資料一覧 - 株式会社カンリー</title>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 40px 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      h1 {
+        color: #2c3e50;
+        border-bottom: 3px solid #3498db;
+        padding-bottom: 10px;
+      }
+      .presentation-card {
+        background: #f8f9fa;
+        border: 1px solid #e9ecef;
+        border-radius: 8px;
+        padding: 20px;
+        margin: 20px 0;
+        transition: box-shadow 0.3s ease;
+      }
+      .presentation-card:hover {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+      .presentation-title {
+        font-size: 1.3em;
+        font-weight: bold;
+        color: #2c3e50;
+        margin-bottom: 10px;
+      }
+      .presentation-date {
+        color: #7f8c8d;
+        font-size: 0.9em;
+        margin-bottom: 15px;
+      }
+      .links {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+      }
+      .link-btn {
+        display: inline-block;
+        padding: 8px 16px;
+        text-decoration: none;
+        border-radius: 4px;
+        font-weight: 500;
+        transition: all 0.3s ease;
+      }
+      .html-link {
+        background-color: #3498db;
+        color: white;
+      }
+      .html-link:hover {
+        background-color: #2980b9;
+      }
+      .pdf-link {
+        background-color: #e74c3c;
+        color: white;
+      }
+      .pdf-link:hover {
+        background-color: #c0392b;
+      }
+      .footer {
+        margin-top: 60px;
+        text-align: center;
+        color: #7f8c8d;
+        border-top: 1px solid #ecf0f1;
+        padding-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>📊 プレゼン資料一覧</h1>
+    <p>株式会社カンリーの各種プレゼンテーション資料をご覧いただけます。</p>
+
+    <div class="presentation-card">
+      <div class="presentation-title">
+        複数リポジトリ環境下のバージョン管理システム構築と運用
+      </div>
+      <div class="presentation-date">2024年6月24日 - めぐろ LT #28</div>
+      <div class="links">
+        <a
+          href="./src/200624/version-up-meguro-lt.html"
+          class="link-btn html-link"
+          >📱 HTML版で見る</a
+        >
+        <a
+          href="./src/200624/version-up-meguro-lt.pdf"
+          class="link-btn pdf-link"
+          >📄 PDF版をダウンロード</a
+        >
+      </div>
+    </div>
+
+    <!-- 今後の資料用のテンプレート（コメントアウト）
+    <div class="presentation-card">
+        <div class="presentation-title">新しいプレゼンのタイトル</div>
+        <div class="presentation-date">2024年XX月XX日 - イベント名</div>
+        <div class="links">
+            <a href="./src/YYMMDD/presentation-name.html" class="link-btn html-link">📱 HTML版で見る</a>
+            <a href="./src/YYMMDD/presentation-name.pdf" class="link-btn pdf-link">📄 PDF版をダウンロード</a>
+        </div>
+    </div>
+    -->
+
+    <div class="footer">
+      <p>
+        <strong>株式会社カンリー</strong><br />
+        GitHub:
+        <a href="https://github.com/motsuo373" target="_blank">motsuo373</a> |
+        X:
+        <a href="https://x.com/canly_motsuo" target="_blank">@canly_motsuo</a>
+      </p>
+    </div>
+  </body>
+</html>
