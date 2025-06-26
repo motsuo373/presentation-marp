@@ -356,11 +356,10 @@ section::after {
 /* ===== 2段組みレイアウト ===== */
 /* 2段組み用のクラス */
 section.two-column {
-  display: flex !important;
+  display: flex;
   gap: 2em;
   align-items: center;
   justify-content: center;
-  min-height: calc(100vh - 160px);
 }
 
 section.two-column > * {

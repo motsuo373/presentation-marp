@@ -19,7 +19,7 @@ marp: true
 
 ## 自己紹介
 
-<div class="flex flex-center flex-sa">
+<div class="flex flex-align-center">
 <div>
 
 ### 🙋‍♂️ About Me
@@ -35,7 +35,7 @@ marp: true
 
 ###
 
-![w:300](images/motsuo.jpg)
+![w:400](images/motsuo.jpg)
 
 </div>
 </div>
@@ -58,9 +58,17 @@ marp: true
 - クライアントは店舗検索ページを簡単に作成、修正ができる
 - header,footer を変更し、**サブドメイン**として運用
 
-<div style="display: flex; justify-content: space-around; align-items: center;">
-  <img src="images/canly-homepage.png" style="height: 300px; border-radius: 10px;">
-  <img src="images/canly-homepage2.png" style="height: 300px; border-radius: 10px;">
+<div class="flex flex-sb flex-align-center">
+<div>
+
+![](images/canly-homepage.png)
+
+</div>
+<div>
+
+![](images/canly-homepage2.png)
+
+</div>
 </div>
 
 ---
