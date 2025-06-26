@@ -15,21 +15,12 @@ marp: true
 
 ---
 
+<!-- _class: two-column -->
+
 ## 自己紹介
 
-<style scoped>
-.profile-section {
-  position: relative;
-}
-.profile-image {
-  position: absolute;
-  right: 80px;
-  top: 50%;
-  transform: translateY(-50%);
-}
-</style>
-
-<div class="profile-section">
+<div class="flex flex-center flex-sa">
+<div>
 
 ### 🙋‍♂️ About Me
 
@@ -39,8 +30,14 @@ marp: true
 - **Hobbies**: 音楽 / ポーカー / 古着屋行く
 - **Other**: このスライド marp で書いてみました
 
-<img src="images/motsuo.jpg" class="profile-image" style="height: 300px; border-radius: 10px;">
+</div>
+<div>
 
+###
+
+![w:300](images/motsuo.jpg)
+
+</div>
 </div>
 
 ---
@@ -168,12 +165,6 @@ marp: true
 ---
 
 ![bg contain](images/deathnote.jpg)
-
----
-
-![bg contain](images/deathnote.jpg)
-
-<img src="images/claudecode.jpeg" style="position: absolute; bottom: 20px; right: 20px; height: 200px; border-radius: 10px; opacity: 0.5;">
 
 ---
 
