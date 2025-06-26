@@ -35,8 +35,9 @@ marp: true
 
 - **Name**: 角谷 維(すみや たもつ) / motsuo
 - **Company**: 株式会社カンリー
-- **Role**: web エンジニア / 一応フロント
-- **Like**: AI 系 / 音楽 / ポーカー
+- **Role**: web エンジニア / 一応フロントエンド
+- **Hobbies**: 音楽 / ポーカー /
+- **Interests**: AI /
 
 <img src="images/motsuo.jpg" class="profile-image" style="height: 300px; border-radius: 10px;">
 
@@ -47,27 +48,17 @@ marp: true
 <!-- _class: subsection -->
 <!-- paginate: false -->
 
-# エンジニア本部について
+# バージョン管理システムの前に
 
 ---
 
-## 問題の背景
+## 所属プロダクトの概要
 
-### 🤔 なぜ複数リポジトリが必要？
+### 🏠 カンリーホームページとは
 
-- **マイクロサービス化**の進展
-- **チーム分割**によるリポジトリ分離
-- **言語・技術スタック**の違い
-- **デプロイサイクル**の独立性
-
-### よくある構成例
-
-```
-frontend/     → React App
-backend-api/  → REST API
-backend-job/  → Batch Jobs
-infra/        → Terraform
-```
+- HP 来訪者の実店舗への来訪動線を**最適化するホームページ**
+- クライアントは CMS としてページを管理
+- header,footer を変更し、**サブドメイン**として運用
 
 ---
 
@@ -108,6 +99,5 @@ infra/        → Terraform
 
 ## 質問・相談はお気軽に 🙋‍♂️
 
-**Twitter**: @your_twitter  
-**GitHub**: github.com/your_github  
-**Email**: your.email@example.com
+**X**: @canly_motsuo
+**GitHub**: github.com/motsuo373
