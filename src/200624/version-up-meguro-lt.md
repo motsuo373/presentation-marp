@@ -143,6 +143,7 @@ marp: true
 ## 取り組んだことその２
 
 ### リリース準備で１日ぐらいかかっていたが<br>それがボタンワンタップで準備可能に！
+
 ![w:800](images/mermaid-sequence.png)
 
 ---
@@ -168,7 +169,12 @@ marp: true
 
 ---
 
+<!-- _class: two-column -->
+
 ## 現在取り組んでいること
+
+<div class="flex flex-align-center">
+<div>
 
 ### 🤖 Case 3: AI ツールとの協業開発
 
@@ -177,6 +183,16 @@ marp: true
 
 複数のリポジトリを一つのエディタで開くことができ、<br>複数社まとめて修正も可能になった！
 **僕は新世界の神となる！！！！！**
+
+</div>
+<div>
+
+###
+
+![](images/cursor-workspace.png)
+
+</div>
+</div>
 
 ---
 
@@ -190,3 +206,6 @@ marp: true
 
 **X**: @canly_motsuo
 **GitHub**: github.com/motsuo373
+
+![](images/qrcode.png)
+このスライドを https://motsuo373.github.io/presentation-marp/ 閲覧できます。
