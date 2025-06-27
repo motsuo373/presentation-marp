@@ -143,6 +143,14 @@ marp: true
 ## 取り組んだことその２
 
 ### リリース準備で１日ぐらいかかっていたが<br>それがボタンワンタップで準備可能に！
+![w:800](images/mermaid-sequence.png)
+
+---
+
+<!-- _class: subsection -->
+<!-- paginate: false -->
+
+# 現在取り組んでいること（おまけ）
 
 ---
 
