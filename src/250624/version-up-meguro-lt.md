@@ -5,9 +5,9 @@ paginate: true
 marp: true
 ---
 
-![bg contain](images/canly-back.png)
+![bg contain](../common-image/canly-back.png)
 
-![canly-logo](images/canly-logo.png)
+![canly-logo](../common-image/canly-logo.png)
 
 # 複数リポジトリ環境下の<br>バージョン管理システム<br>構築と運用
 
