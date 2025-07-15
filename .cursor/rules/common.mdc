@@ -1,0 +1,213 @@
+---
+alwaysApply: true
+---
+
+# Marp とは
+
+Marp（Markdown Presentation Ecosystem）は、Markdown を使って美しいプレゼンテーション資料を作成できるオープンソースのツールエコシステムです。
+
+## 技術スタック・主要機能
+
+### 1. 基本構成
+
+- **Marpit フレームワーク**: 軽量な Markdown→HTML/CSS スライドデッキ変換フレームワーク
+- **Marp Core**: 実用的な機能と組み込みテーマを持つ変換エンジン
+- **Marp CLI**: Markdown→HTML/PDF/PowerPoint/画像への変換ツール
+- **Marp for VS Code**: リアルタイムプレビュー機能付き VS Code 拡張機能
+
+### 2. サポート形式
+
+- **入力**: CommonMark 準拠の Markdown
+- **出力**: HTML、PDF、PowerPoint（PPTX）、画像ファイル
+
+### 3. 主要機能
+
+- ✏️ **シンプルな記法**: 通常の Markdown に`---`でページ区切りを追加するだけ
+- 🎨 **テーマシステム**: default、gaia、uncover の組み込みテーマ + カスタム CSS 対応
+- 📐 **ディレクティブ**: フロントマターや HTML コメントでスライド設定を制御
+- 🖼️ **画像拡張構文**: リサイズ、フィルター、背景画像、分割レイアウト対応
+- 🔢 **数式サポート**: KaTeX 対応（Marp Core のみ）
+- 📱 **レスポンシブ**: 16:9、4:3 のスライドサイズ対応
+- 🔧 **プラグイン対応**: 拡張可能なアーキテクチャ
+
+## 記述例とベストプラクティス
+
+### 1. 基本的なスライド構造
+
+```markdown
+---
+theme: gaia
+_class: lead
+paginate: true
+backgroundColor: #fff
+---
+
+# スライドタイトル
+
+## サブタイトル
+
+---
+
+# 通常のスライド
+
+内容をここに記述
+
+- 箇条書き項目 1
+- 箇条書き項目 2
+
+---
+
+<!-- _class: invert -->
+
+# 反転カラーのスライド
+
+このスライドのみ色が反転されます
+```
+
+### 2. ディレクティブの活用
+
+#### グローバルディレクティブ（全体設定）
+
+```markdown
+---
+theme: default # テーマ選択
+headingDivider: 2 # 見出しレベル2で自動ページ分割
+style: | # カスタムCSS
+  section {
+    background-color: #f0f0f0;
+  }
+---
+```
+
+#### ローカルディレクティブ（ページ毎設定）
+
+```markdown
+<!--
+paginate: true          # ページ番号表示
+header: 'ヘッダー内容'   # ヘッダー
+footer: '© 2024 Company' # フッター
+backgroundColor: aqua   # 背景色
+_class: lead           # 単一ページのみクラス適用（_プレフィックス）
+-->
+```
+
+### 3. 画像・背景の効果的な使い方
+
+#### 背景画像
+
+```markdown
+![bg](background.jpg) # 基本的な背景
+![bg contain](image.jpg) # 画像を収める
+![bg left:40%](image.jpg) # 左 40%に画像、右 60%にコンテンツ
+![bg blur:3px opacity:0.5](image.jpg) # フィルター効果
+```
+
+#### 複数背景（Advanced Backgrounds）
+
+```markdown
+![bg](image1.jpg)
+![bg](image2.jpg)
+![bg vertical](image3.jpg) # 縦方向配置
+```
+
+#### インライン画像
+
+```markdown
+![w:300](image.jpg) # 幅 300px
+![w:50% h:200px](image.jpg) # 幅 50%、高さ 200px
+![blur sepia:50%](filtered.jpg) # フィルター適用
+```
+
+### 4. レイアウトテクニック
+
+#### 2 段組みレイアウト
+
+```markdown
+<div class="flex">
+<div>
+
+### 左側のコンテンツ
+
+- 項目 1
+- 項目 2
+
+</div>
+<div>
+
+### 右側のコンテンツ
+
+![w:300](chart.png)
+
+</div>
+</div>
+```
+
+#### 断片化されたリスト（HTML エクスポート時のみ）
+
+```markdown
+# アニメーション効果のあるリスト
+
+- 項目 1（最初に表示）
+- 項目 2（クリックで表示）
+- 項目 3（クリックで表示）
+```
+
+### 5. 数式とコードブロック
+
+#### 数式（KaTeX）
+
+```markdown
+インライン数式: $ax^2+bx+c$
+
+ブロック数式:
+$$I_{xx}=\int\int_R y^2 f(x,y) \cdot dy dx$$
+```
+
+#### コードブロック（自動スケーリング対応）
+
+```javascript
+// 長いコードは自動的にスケーリングされます
+const longVariableName = "very long string content here";
+```
+
+### 6. 効果的なスライドデザインのコツ
+
+#### タイトルスライド
+
+```markdown
+<!-- _class: lead -->
+
+![bg](title-background.jpg)
+
+# プレゼンテーションタイトル
+
+## サブタイトル
+
+---
+```
+
+#### セクション区切り
+
+```markdown
+<!-- _class: invert -->
+<!-- _paginate: false -->
+
+# セクション 1
+
+## 新しいトピックの開始
+
+---
+```
+
+#### 強調スライド
+
+```markdown
+<!-- _backgroundColor: #333 -->
+<!-- _color: white -->
+
+# 重要なポイント
+
+大きな文字で強調したい内容
+```
+
+---
