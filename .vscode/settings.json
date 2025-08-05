@@ -1,4 +1,4 @@
 {
-  "markdown.marp.themes": ["./themes/canly-theme.css"],
+  "markdown.marp.themes": ["./themes/canly-theme.css", "./themes/block-pop-theme.css"],
   "markdown.marp.enableHtml": true
 }
