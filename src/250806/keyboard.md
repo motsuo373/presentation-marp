@@ -20,7 +20,6 @@ marp: true
 ---
 
 <!-- _class: two-column -->
-<!-- transition: fade -->
 
 ## About Me
 
@@ -52,7 +51,6 @@ marp: true
 
 ---
 
-<!-- transition: slide -->
 
 ## My keyboard
 
@@ -88,7 +86,6 @@ marp: true
 
 ---
 
-<!-- transition: zoom -->
 
 ## キーレイアウトどうしてますか？
 
@@ -113,15 +110,13 @@ marp: true
 
 <!-- _class: lead -->
 <!-- _backgroundColor: var(--color-white) -->
-<!-- transition: explode -->
 
 <div style="font-size: 400px; display: flex; justify-content: center; align-items: center; height: 100%; margin: 0;">
 😡
 </div>
 
 ---
-
-<!-- transition: wipe -->
+<!-- transition: melt -->
 
 ## アプローチ 1: 100%キーボードから離れない。
 
@@ -144,8 +139,7 @@ marp: true
 </div>
 
 ---
-
-<!-- transition: slide -->
+<!-- transition: melt -->
 
 ## アプローチ 2: レイヤーを使い分ける、意味づけを忘れない。
 
@@ -173,8 +167,7 @@ marp: true
 </div>
 
 ---
-
-<!-- transition: fade -->
+<!-- transition: melt -->
 
 ## アプローチ 2: レイヤーを使い分ける、意味づけを忘れない。
 
@@ -201,8 +194,7 @@ marp: true
 </div>
 
 ---
-
-<!-- transition: zoom -->
+<!-- transition: melt -->
 
 ## アプローチ 2: レイヤーを使い分ける、意味づけを忘れない。
 
@@ -269,7 +261,7 @@ marp: true
 
 ---
 
-<!-- transition: fade -->
+<!-- transition: melt -->
 
 ## まとめ
 
@@ -281,8 +273,7 @@ marp: true
 ぜひ40%キーボードユーザーの世界へ。
 
 ---
-
-<!-- transition: slide -->
+<!-- transition: melt -->
 
 ## appdex: おすすめソフト
 
@@ -293,7 +284,6 @@ marp: true
 ---
 
 <!-- _class: lead -->
-<!-- transition: explode -->
 
 # Thank you for listening!
 
