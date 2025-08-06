@@ -45,7 +45,6 @@ marp: true
 ---
 
 <!-- _class: subsection -->
-<!-- transition: melt -->
 
 # My keyboard
 
@@ -79,7 +78,6 @@ marp: true
 ---
 
 <!-- _class: subsection -->
-<!-- transition: melt -->
 
 # キーレイアウトどうしてますか？
 
@@ -95,14 +93,15 @@ marp: true
 
 キーレイアウトを考えることはその後の使用感に直結するので、
 
+40, 60%キーボードを使う場合は、
+
 > **自分自身の理由づけをして、キーレイアウトを組みましょう。**
 
 今回は私なりのキーレイアウトアプローチ術を紹介します。
 
 
-
-
 <br/>
+
 
 <span style="color: var(--color-gray-300)">え？100%キーボードを使えばいいじゃん？</span>
 
@@ -110,12 +109,30 @@ marp: true
 
 <!-- _class: lead -->
 <!-- _backgroundColor: var(--color-white) -->
-
-<div style="font-size: 400px; display: flex; justify-content: center; align-items: center; height: 100%; margin: 0;">
-😡
-</div>
+# <!--fit--> 😡 
 
 ---
+
+### アプローチ術
+
+- <span style="view-transition-name: icon-1">![1](https://icongr.am/material/numeric-1-circle.svg?color=666666)</span> <span style="view-transition-name: text-1">**100%キーボードから離れない。**</span>
+- <span style="view-transition-name: icon-2">![2](https://icongr.am/material/numeric-2-circle.svg?color=666666)</span> <span style="view-transition-name: text-2">**レイヤーを使い分ける、意味づけを忘れない。**</span>
+- <span style="view-transition-name: icon-3">![3](https://icongr.am/material/numeric-3-circle.svg?color=666666)</span> <span style="view-transition-name: text-3">**独自機能を使う。**</span>
+
+<!-- _transition: fade -->
+
+---
+
+<!-- _class: morph -->
+
+<span style="view-transition-name: icon-1">![1](https://icongr.am/material/numeric-1-circle.svg?color=666666&size=200)</span>
+
+<span style="view-transition-name: text-1">100%キーボードから離れない。</span>
+
+<!-- _transition: melt -->
+
+---
+
 <!-- transition: melt -->
 
 ## アプローチ 1: 100%キーボードから離れない。
@@ -137,6 +154,28 @@ marp: true
 
 </div>
 </div>
+
+---
+
+<!-- transition: melt -->
+
+### アプローチ術
+
+- <span style="view-transition-name: icon-1">![1](https://icongr.am/material/numeric-1-circle.svg?color=666666)</span> <span style="view-transition-name: text-1">**100%キーボードから離れない。**</span>
+- <span style="view-transition-name: icon-2">![2](https://icongr.am/material/numeric-2-circle.svg?color=666666)</span> <span style="view-transition-name: text-2">**レイヤーを使い分ける、意味づけを忘れない。**</span>
+- <span style="view-transition-name: icon-3">![3](https://icongr.am/material/numeric-3-circle.svg?color=666666)</span> <span style="view-transition-name: text-3">**独自機能を使う。**</span>
+
+<!-- _transition: fade -->
+
+---
+
+<!-- _class: morph -->
+
+<span style="view-transition-name: icon-2">![2](https://icongr.am/material/numeric-2-circle.svg?color=666666&size=200)</span>
+
+<span style="view-transition-name: text-2">レイヤーを使い分ける、意味づけを忘れない。</span>
+
+<!-- _transition: melt -->
 
 ---
 <!-- transition: melt -->
@@ -217,6 +256,28 @@ marp: true
 </div>
 
 ---
+<!-- transition: melt -->
+
+### アプローチ術
+
+- <span style="view-transition-name: icon-1">![1](https://icongr.am/material/numeric-1-circle.svg?color=666666)</span> <span style="view-transition-name: text-1">**100%キーボードから離れない。**</span>
+- <span style="view-transition-name: icon-2">![2](https://icongr.am/material/numeric-2-circle.svg?color=666666)</span> <span style="view-transition-name: text-2">**レイヤーを使い分ける、意味づけを忘れない。**</span>
+- <span style="view-transition-name: icon-3">![3](https://icongr.am/material/numeric-3-circle.svg?color=666666)</span> <span style="view-transition-name: text-3">**独自機能を使う。**</span>
+
+<!-- _transition: fade -->
+
+---
+
+<!-- transition: fade -->
+<!-- _class: morph -->
+
+<span style="view-transition-name: icon-3">![3](https://icongr.am/material/numeric-3-circle.svg?color=666666&size=200)</span>
+
+<span style="view-transition-name: text-3">独自機能を使う。</span>
+
+<!-- _transition: melt -->
+
+---
 
 <!-- transition: melt -->
 
@@ -231,7 +292,6 @@ marp: true
 
 ---
 
-<!-- transition: wipe -->
 
 ## アプローチ 3: 独自機能を使う。
 
@@ -261,7 +321,6 @@ marp: true
 
 ---
 
-<!-- transition: melt -->
 
 ## まとめ
 
@@ -273,7 +332,6 @@ marp: true
 ぜひ40%キーボードユーザーの世界へ。
 
 ---
-<!-- transition: melt -->
 
 ## appdex: おすすめソフト
 
