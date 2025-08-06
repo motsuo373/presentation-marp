@@ -336,8 +336,10 @@ marp: true
 ## appdex: おすすめソフト
 
 - mousefix
+ホイールを使用した際に、なんかいい感じにホイールがぬるっと動く
 
 - karabina-elements
+キーボードの文字変換が使えるようになる。
 
 ---
 
