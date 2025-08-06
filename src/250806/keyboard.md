@@ -79,6 +79,12 @@ marp: true
 
 <!-- _class: subsection -->
 
+# ⚠️思想強めです
+
+---
+
+<!-- _class: subsection -->
+
 # キーレイアウトどうしてますか？
 
 
