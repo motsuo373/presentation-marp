@@ -352,10 +352,12 @@ Marpを使って「〇〇について」のプレゼン資料を作成してく�
 
 ## という感じの記事ができます！
 
-ここまでAIが自動的に作成した内容です。
+**ここまでワンショットでAIが自動的に作成した内容です。**
 
 普通に使えそうなレベルかな〜と思ってはいますが、
 プロンプト次第でもう少しよくすることもできると思っています。
+
+AIに書かせながら、marpのVScode拡張を入れるだけでとなりにプレビューが表示されるので、叩き台を書かせて修正みたいな感じにもできるのは使い勝手が結構いいです。
 
 ---
 
@@ -365,3 +367,31 @@ Marpを使って「〇〇について」のプレゼン資料を作成してく�
 
 `themes/canly-theme.css` を作成して、ここに現在見ていただいているような、実際の弊社のプレゼン資料と同様のスタイルを組んでいます。
 
+↓実際のスタイル
+
+![w:600](./images/canly.png)
+
+---
+
+## Tips 
+
+- スライドアニメーションも使用することができます
+参考： https://github.com/marp-team/marp-cli/blob/main/docs/bespoke-transitions/README.md#built-in-transitions
+![w:300](./images/reveal.gif)
+
+- このサイトをgithub actionでdeployさえすればpushするだけで常に新しいスライドを共有できる...
+
+---
+
+<!-- _class: lead -->
+
+# Thank you for listening!
+
+**X**: @canly_motsuo
+**GitHub**: github.com/motsuo373
+
+![](../common-image/my-qrcode.png)
+このスライドを https://motsuo373.github.io/presentation-marp/ で閲覧できます。
+
+
+---
