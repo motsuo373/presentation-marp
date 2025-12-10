@@ -1,4 +1,13 @@
 {
-  "markdown.marp.themes": ["./themes/canly-theme.css", "./themes/block-pop-theme.css"],
-  "markdown.marp.enableHtml": true
+  "markdown.marp.themes": [
+    "./themes/canly-theme.css",
+    "./themes/block-pop-theme.css"
+  ],
+  "markdown.marp.enableHtml": true,
+  "[markdown]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "markdown.format.enable": false,
+  "prettier.disableLanguages": ["markdown"]
 }
